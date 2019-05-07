@@ -15,12 +15,4 @@ namespace Tests
 			Assert.AreEqual("1", convertedNumber);
 		}
 	}
-
-	public class FizzBuzzConverter
-	{
-		public string Convert(int number)
-		{
-			return "1";
-		}
-	}
 }
