@@ -14,5 +14,16 @@ namespace Tests
 			
 			Assert.AreEqual("1", convertedNumber);
 		}
+
+		[Test]
+		public void Convert_2_to_2()
+		{
+			var number = 2;
+			var converter = new FizzBuzzConverter();
+
+			var convertedNumber = converter.Convert(number);
+			
+			Assert.AreEqual("2", convertedNumber);
+		}
 	}
 }

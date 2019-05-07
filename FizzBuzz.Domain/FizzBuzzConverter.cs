@@ -4,7 +4,13 @@ namespace Tests
 	{
 		public string Convert(int number)
 		{
-			return "1";
+			switch (number)
+			{
+				case 1:
+					return "1";
+				default:
+					return "2";
+			}
 		}
 	}
 }
