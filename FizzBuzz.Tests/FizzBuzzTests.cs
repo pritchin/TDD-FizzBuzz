@@ -23,6 +23,12 @@ namespace FizzBuzzTests
 			Assert.AreEqual("4", ToFizzBuzz(4));
 		}
 
+		[Test]
+		public void Convert_3_to_Fizz()
+		{
+			Assert.AreEqual("Fizz", ToFizzBuzz(3));
+		}
+
 		private static string ToFizzBuzz(int number)
 		{
 			var converter = new FizzBuzzConverter();
