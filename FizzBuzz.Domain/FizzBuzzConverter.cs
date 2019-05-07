@@ -8,8 +8,10 @@ namespace FizzBuzz.Domain
 			{
 				case 1:
 					return "1";
-				default:
+				case 2:
 					return "2";
+				default:
+					return "4";
 			}
 		}
 	}
