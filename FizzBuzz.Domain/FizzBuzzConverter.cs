@@ -4,7 +4,7 @@ namespace FizzBuzz.Domain
 	{
 		public string Convert(int number)
 		{
-			if (number == 5)
+			if (number % 5 == 0)
 			{
 				return "Buzz";
 			}
