@@ -8,17 +8,13 @@ namespace FizzBuzzTests
 		[Test]
 		public void Convert_1_to_1()
 		{
-			var convertedNumber = ToFizzBuzz(1);
-
-			Assert.AreEqual("1", convertedNumber);
+			Assert.AreEqual("1", ToFizzBuzz(1));
 		}
 
 		[Test]
 		public void Convert_2_to_2()
 		{
-			var convertedNumber = ToFizzBuzz(2);
-			
-			Assert.AreEqual("2", convertedNumber);
+			Assert.AreEqual("2", ToFizzBuzz(2));
 		}
 
 		private static string ToFizzBuzz(int number)
