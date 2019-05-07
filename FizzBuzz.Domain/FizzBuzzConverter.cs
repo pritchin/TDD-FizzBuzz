@@ -1,4 +1,4 @@
-namespace Tests
+namespace FizzBuzz.Domain
 {
 	public class FizzBuzzConverter
 	{
