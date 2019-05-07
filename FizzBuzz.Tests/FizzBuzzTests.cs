@@ -1,3 +1,4 @@
+using System.Globalization;
 using FizzBuzz.Domain;
 using NUnit.Framework;
 
@@ -27,6 +28,18 @@ namespace FizzBuzzTests
 		public void Convert_3_to_Fizz()
 		{
 			Assert.AreEqual("Fizz", ToFizzBuzz(3));
+		}
+
+		[Test]
+		public void Convert_6_to_Fizz()
+		{
+			Assert.AreEqual("Fizz", ToFizzBuzz(6));
+		}
+
+		[Test]
+		public void Convert_9_to_Fizz()
+		{
+			Assert.AreEqual("Fizz", ToFizzBuzz(9));
 		}
 
 		private static string ToFizzBuzz(int number)
